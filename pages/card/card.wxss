@@ -1,0 +1,35 @@
+/* pages/card/card.wxss */
+.card{
+  margin: 10px;
+  position: relative;
+}
+/* 后代选择器  .card image{} */
+.bg{
+  width: 100%;
+  /* 设置圆角 */
+  border-radius: 5px;
+  /* x y轴偏移量 */
+  box-shadow: 0 0 5px #5F687E;     
+}
+.logo{
+  width: 80px;
+  height: 40px;
+  /* 绝对定位 */
+  position: absolute;  
+  top: 10px;
+  right: 20px;
+}
+.info{
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  color: #5F687E;
+  font-size: 13px;
+  margin-top: 4px;
+}
+.name{
+  font-weight: bold;
+}
+.time{
+  margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+<!--pages/card/card.wxml-->
+<view class="card">
+<image src="../../images/LondonEye.jpg" mode="widthFix" class="bg"></image>
+<image src="../../images/icon_love.svg" class="logo" mode="widthFix"></image>
+
+<view class="info">
+  <view class="name">London Eye</view>
+  <view class="time">2019/7/30</view>
+</view>
+</view>
